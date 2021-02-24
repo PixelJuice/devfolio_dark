@@ -1,0 +1,203 @@
+/* sans-serif
+   ========================================================================== */
+
+$font-stack-helvetica: ("Helvetica Neue", "Helvetica", "Arial", sans-serif);
+
+$font-stack-arial: ("Arial", "Helvetica Neue", "Helvetica", sans-serif);
+
+$font-stack-verdana: ("Verdana", "Geneva", sans-serif);
+
+$font-stack-corbel: (
+  Corbel,
+  "Lucida Grande",
+  "Lucida Sans Unicode",
+  "Lucida Sans",
+  "DejaVu Sans",
+  "Bitstream Vera Sans",
+  "Liberation Sans",
+  Verdana,
+  "Verdana Ref",
+  sans-serif
+);
+
+//Not web safe
+$font-stack-lucida-grande: (
+  "Lucida Grande",
+  "Lucida Sans Unicode",
+  "Geneva",
+  "Verdana",
+  sans-serif
+);
+
+$font-stack-system: (
+  system-ui,
+  -apple-system,
+  BlinkMacSystemFont,
+  "Avenir Next",
+  "Avenir",
+  "Segoe UI",
+  "Lucida Grande",
+  "Helvetica Neue",
+  "Helvetica",
+  "Fira Sans",
+  "Roboto",
+  "Noto",
+  "Droid Sans",
+  "Cantarell",
+  "Oxygen",
+  "Ubuntu",
+  "Franklin Gothic Medium",
+  "Century Gothic",
+  "Liberation Sans",
+  sans-serif
+);
+
+$font-stack-impact: (
+  Impact,
+  Haettenschweiler,
+  "Franklin Gothic Bold",
+  Charcoal,
+  "Helvetica Inserat",
+  "Bitstream Vera Sans Bold",
+  "Arial Black",
+  sans-serif
+);
+
+$font-stack-segoe: (
+  "Segoe UI",
+  Candara,
+  "Bitstream Vera Sans",
+  "DejaVu Sans",
+  "Bitstream Vera Sans",
+  "Trebuchet MS",
+  Verdana,
+  "Verdana Ref",
+  sans-serif
+);
+
+/* serif
+   ========================================================================== */
+
+$font-stack-palatino-linotype: (
+  "Palatino Linotype",
+  Palatino,
+  Palladio,
+  "URW Palladio L",
+  "Book Antiqua",
+  Baskerville,
+  "Bookman Old Style",
+  "Bitstream Charter",
+  "Nimbus Roman No9 L",
+  Garamond,
+  "Apple Garamond",
+  "ITC Garamond Narrow",
+  "New Century Schoolbook",
+  "Century Schoolbook",
+  "Century Schoolbook L",
+  Georgia,
+  serif
+);
+
+$font-stack-cambria: (
+  Cambria,
+  "Hoefler Text",
+  Utopia,
+  "Liberation Serif",
+  "Nimbus Roman No9 L Regular",
+  Times,
+  "Times New Roman",
+  serif
+);
+
+$font-stack-georgia: ("Georgia", "Times", "Times New Roman", serif);
+
+$font-stack-garamond: (
+  "Garamond",
+  "Baskerville",
+  "Baskerville Old Face",
+  "Hoefler Text",
+  "Times New Roman",
+  serif
+);
+
+$font-stack-baskerville: (
+  "Baskerville",
+  "Baskerville Old Face",
+  "Garamond",
+  "Times New Roman",
+  serif
+);
+
+$font-stack-constantia: (
+  Constantia,
+  "Lucida Bright",
+  Lucidabright,
+  "Lucida Serif",
+  Lucida,
+  "DejaVu Serif",
+  "Bitstream Vera Serif",
+  "Liberation Serif",
+  Georgia,
+  serif
+);
+
+$font-stack-hoefler-text: (
+  "Hoefler Text",
+  "Baskerville Old Face",
+  "Garamond",
+  "Times New Roman",
+  serif
+);
+
+//mac and Ios
+$font-stack-didot: (
+  "Didot",
+  "Didot LT STD",
+  "Hoefler Text",
+  "Garamond",
+  "Calisto MT",
+  "Times New Roman",
+  serif
+);
+
+/* Monospaced
+   ========================================================================== */
+
+$font-stack-consolas: (
+  Consolas,
+  "Andale Mono WT",
+  "Andale Mono",
+  "Lucida Console",
+  "Lucida Sans Typewriter",
+  "DejaVu Sans Mono",
+  "Bitstream Vera Sans Mono",
+  "Liberation Mono",
+  "Nimbus Mono L",
+  Monaco,
+  "Courier New",
+  Courier,
+  monospace
+);
+
+$font-stack-courier-new: (
+  "Courier New",
+  "Courier",
+  "Lucida Sans Typewriter",
+  "Lucida Typewriter",
+  monospace
+);
+
+$font-stack-monaco: ("Monaco", "Consolas", "Lucida Console", monospace);
+
+//https://sourcefoundry.org/hack/
+$font-stack-hack: (
+  Hack,
+  Menlo,
+  Monaco,
+  Consolas,
+  "DejaVu Sans Mono",
+  "Roboto Mono",
+  "Bitstream Vera Sans Mono",
+  "Liberation Mono",
+  monospace
+);

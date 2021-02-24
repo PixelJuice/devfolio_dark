@@ -1,0 +1,6 @@
+{{ if .IsNamedParams }}
+    <b class="icon-h icon-{{ .Get "icon" }}">{{- .Inner -}}</b>
+{{else}}
+    <h3 class="icon-h icon-{{ index .Params 0 }}">{{- .Inner -}}</h3>
+{{end}}
+
