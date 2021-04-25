@@ -1,0 +1,17 @@
+@import "atoms/colors";
+@import "vendor/blankslate/reset";
+@import "vendor/blankslate/components/responsive";
+@import "vendor/blankslate/components/icons";
+@include fa-solid();
+@include fa-light();
+@import "atoms/icons";
+@import "atoms/elements";
+@import "molecules/navbar";
+@import "molecules/article_links";
+@import "molecules/article_header";
+
+
+
+.wrapper {
+    margin: 5rem 0.5rem;
+}

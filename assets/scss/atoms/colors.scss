@@ -1,0 +1,39 @@
+$darkest-grey: #20262C;
+$dark-grey: #282F37;
+$light-grey: #465463;
+$blue: #6EC1D6;
+$pink: #FB6396;
+$green: #74DD91;
+$purple: #CD84C8;
+$orange: #E49186;
+$white: #F1FCF9;
+
+$link-color: $blue;
+$link-hover-color: $pink;
+$link-visited-color:  $blue;
+$base-font-color: $white;
+
+::selection {
+    background:$link-hover-color;
+    color: $white;
+  }
+
+.blue {
+    color: $blue;
+}
+.pink {
+    color: $pink;
+}
+.green {
+    color: $green;
+}
+.purple {
+    color: $purple;
+}
+.orange {
+    color: $orange;
+}
+.white {
+    color: $white;
+}
+

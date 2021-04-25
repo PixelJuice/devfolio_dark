@@ -1,7 +1,5 @@
 // Make images responsive by default.
-@mixin responsive-img {
-  img {
+img {
     max-width: 100%;
     height: auto;
-  }
 }

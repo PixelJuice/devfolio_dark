@@ -1,0 +1,22 @@
+{{ define "main"}}
+<main>
+    <article>
+        <header>
+            <small class="date"><span class="icon-calendar-alt">&nbsp;{{ dateFormat "2006-01-02" .Date }}</span></small>
+            <h1>{{ .Title }}</h1>
+            <small class="tag">
+                
+                {{ range .Params.tags }}
+                <span class="icon-tag">
+                    <a href="{{ $.Site.BaseURL }}/tags/{{ . | urlize }}">{{ . }}</a>
+                </span>
+                {{ end }}
+                
+            </small>
+        </header>
+        <section>
+            {{ .Content }}
+        </section>
+    </article>
+</main>
+{{end}}

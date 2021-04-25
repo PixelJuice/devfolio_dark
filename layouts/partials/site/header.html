@@ -1,0 +1,28 @@
+{{ define "header"}}
+<div class="top-nav">
+    <div>
+        <a href="{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{else}}{{ .Site.BaseURL | relLangURL }}{{ end }}">
+            <h3 class="white"><span>></span> jonasjohansson/ <span class="cursor">▍</span></h3>
+        </a>
+    </div>
+    <div>
+        <input id="burger" type="checkbox"/>
+        <label for="burger" class="hamburger">
+            <h3 class="white">&#9776;</h3>
+        </label>
+        <nav>
+            <ul>        
+                {{ if .Site.Menus.main }}
+                {{ range sort .Site.Menus.main }}
+                <li>
+                    <a href="{{ .URL }}" role="navigation">
+                        <h3 class="icon-h {{ .Title }} white">{{ .Title }}</h3>       
+                    </a>
+                </li>
+                {{ end }}
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+</div>
+{{ end }}

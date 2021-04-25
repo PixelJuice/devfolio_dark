@@ -1,0 +1,76 @@
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  background-color: $darkest-grey;
+  position: fixed;
+  top:0;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 1rem;
+  h3 {
+    margin:0;
+  }
+  nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    ul {
+      list-style-type: none;
+      margin:0;
+      padding: 0;
+    }
+  }
+  input {
+    display: none;
+  }
+
+  .hamburger {
+    cursor: pointer;
+    display: block;    
+  }
+
+  input ~ nav {
+    margin: 0;
+    position: fixed;
+    background: $darkest-grey;
+    height: 0%; 
+    width: 100%;
+    left:0;
+    flex-direction: column;
+    transition: all 0.3s ease-out;
+    pointer-events: none;
+    li {
+      opacity: 0;
+    }
+  }
+
+  input:checked ~ nav {
+    justify-content: center;
+    transition: all 0.3s ease-out;
+    height: 100%;
+    pointer-events: all;
+    li {
+      opacity: 1;
+    }
+  }
+
+  .cursor {
+    color: $link-hover-color;
+    display: inline-block;
+    animation: cursor 1s infinite;
+  }
+
+  @keyframes cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}

@@ -1,3 +1,12 @@
 {{ define "main"}}
-    <h1>I'm single</h1>
-{{ end }}
+<main>
+    <article>
+        <header>
+            <h1>{{ .Title }}</h1>
+        </header>
+        <section>
+            {{ .Content }}
+        </section>
+    </article>
+</main>
+{{end}}

@@ -1,0 +1,21 @@
+article > header {
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .date {display: block; position: relative; text-align: center; z-index: 1; }
+
+
+    .date:before { border-top: 1px solid $light-grey; content: ""; position: absolute; top: 0.7rem; left: 0; width: 100%; z-index: -1; }
+
+
+    .tag { display: block; padding-bottom: 38px; position: relative; text-align: center; z-index: 1; }
+
+
+    .tag:before { border-top: 1px solid $light-grey; content: ""; position: absolute; top: 12px; left: 0; width: 100%; z-index: -1; }
+
+
+    .date span,
+
+    .tag span { background: $darkest-grey; padding: 0 10px; text-transform: uppercase; }
+}
